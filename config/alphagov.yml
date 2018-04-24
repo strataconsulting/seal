@@ -1,30 +1,39 @@
 # Please insert new items alphabetically.
-
-benchmarking:
+data-gov-uk:
   members:
-    - Davidslv
-    - deborahchua
-    - sihugh
+    - andrewgarner
+    - benthorner
+    - emmabeynon
+    - hannako
+    - laurentqro
+    - maxgds
+    - rossjones
 
   channel:
-    "#benchmarking"
+    "#datagovuk-tech"
 
   exclude_titles:
+    - "WIP"
+    - "[WIP]"
+    - "DO NOT MERGE"
     - "[DO NOT MERGE]"
-    - DO NOT MERGE
-    - WIP
 
-content-tools:
+  include_repos:
+    - datagovuk_publish
+    - datagovuk_find
+    - datagovuk_infrastructure
+
+data-informed-content:
   members:
-    - pmanrubia
-    - ikennaokpala
     - chao-xian
-    - mgrassotti
-    - andrewgarner
-    - alecgibson
+    - kylemacpherson
+    - matmoore
+    - peteglondon
+    - pmanrubia
+    - theKHutDeveloper
 
   channel:
-    "#content-tools"
+    "#data-informed-content"
 
   exclude_titles:
     - "[DO NOT MERGE]"
@@ -42,92 +51,115 @@ content-tools:
     - "Waiting on factcheck"
 
   quotes:
-    - If it’s gonna take more than 30 minutes, or it needs deploying - write a card for it and chat to the Product Manager.
-    - Try to pair when possible.
-    - Be considerate to remote workers and follow the Working from home practices https://gov-uk.atlassian.net/wiki/x/Bz_5Bw and https://gov-uk.atlassian.net/wiki/display/CT/Working+from+home+ideas
+    - Be the change you want to see!
+    - Help each other out. Pair if possible.
+    - Be considerate to remote workers. Ask \#remote-workers for tips.
     - Who's organising the next team lunch?
     - If you're not well, don't come in to the office. And get some rest!
-    - Set your Slack status to away or do not disturb so people know whether they can disturb you.
-    - Has your story got points?
-    - Don't forget to assign your face to a card and PR if you're working on it or reviewing.
-    - Don't forget the Jabra and fisheye lens if you're dialing in people!
-    - If Hangouts is being flaky, try Slack calls or appear.in!
+    - Does your work have a story? Has your story got points?
+    - I AM VENGEANCE! I AM THE NIGHT! I AM BATMAN! :batsignal:
 
-email:
+govuk-design-system:
   members:
-    - davidbasalla
-    - gpeng
-    - rubenarakelyan
-    - tuzz
+    - 36degrees
+    - alex-ju
+    - dashouse
+    - hannalaakso
+    - igloosi
+    - nickcolley
+    - timpaul
 
   channel:
-    "#email"
+    "#design-system-dev"
+
+  exclude_titles:
+    - DO NOT MERGE
+    - WIP
+
+porg-pages:
+  members:
+    - andysellick
+    - Davidslv
+    - MahmudH
+    - rubenarakelyan
+    - sihugh
+    - tijmenb
+
+  channel:
+    "#porg-pages"
+
+  exclude_titles:
+    - WIP
+    - "[WIP]"
+    - "[DO NOT MERGE]"
+
+  quotes:
+    - I find your lack of an easily implemented change process for organisations disturbing
+    - When 900 years you have worked on Whitehall, look as good you will not.
+    - These are not the organisation pages you are looking for
+    - Migration is the path to the dark side. Migration leads to anger; anger leads to hate; hate leads to suffering. I sense much migration in you.
+
+platform-health:
+  members:
+    - barrucadu
+    - bevanloon
+    - boffbowsh
+    - deborahchua
+    - kevindew
+    - steventux
+    - thomasleese
+
+  channel:
+    "#platform-health"
 
   exclude_titles:
     - "[DO NOT MERGE]"
-    - "[WIP]"
+    - "WIP"
 
-content-api:
+reliability-engineering:
   members:
-    - kevindew
-    - thomasleese
-    - emmabeynon
-    - steventux
-    - klssmith
+    - afda16
+    - issyl0
+    - jljalderman
+    - rtrinque
+    - stephenharker
+    - surminus
+    - suthagahrt
 
   channel:
-    "#content-api"
+    "#r20g-infra-internal"
 
   exclude_titles:
     - "[DO NOT MERGE]"
     - WIP
 
-taxonomy:
+  quotes:
+    - "Someone needs to think of some new quotes!"
+
+taxonomy-and-navigation:
   members:
+    - 1pretz1
     - alextea
-    - carvil
     - cbaines
     - koetsier
-    - theKHutDeveloper
+    - leenagupte
+    - miaallers
+    - mmholland88
+    - myst3ria
+    - peteglondon
     - tijmenb
-    - whoojemaflip
+    - vanitabarrett
 
   channel:
-    "#taxonomy"
+    "#taxonomy-and-nav"
 
   exclude_titles:
     - "[DO NOT MERGE]"
     - "Don't merge"
     - DO NOT MERGE
     - WIP
-    - "[REVIEW ONLY]"
-    - REVIEW ONLY
     - "[SEAL IGNORE]"
-
-search-team:
-  members:
-    - MatMoore
-    - brenetic
-    - suzannehamilton
-    - dwhenry
-    - tatiana
-
-  channel:
-    "#search-team"
-
-  quotes:
-    - Biscuits
-    - Respect each other
-    - Document document document
-    - Change when things don't work
-    - Create a clear, shared vision of our goals
-    - Work at a sustainable and accommodating pace
-    - Make data driven decisions based on user needs
-    - Make good use of people's time
-    - Communicate priorities effectively across the whole team
-    - Monitor progress against our goals
-    - Celebrate progress
-    - Unblock priority WIPs before starting new work
+    - RFC
 
 testing:
   members:
@@ -136,7 +168,7 @@ testing:
     - fofr
 
   channel:
-    "#testing"
+    "#bot-testing"
 
   exclude_titles:
     - "[DO NOT MERGE]"
@@ -147,64 +179,16 @@ testing:
     - Be nice and respect each other. Support each other.
     - Don’t be a silo of knowledge
 
-govuk-infrastructure:
+gov-uk-licensing-support:
   members:
-    - deanwilson
-    - surminus
-    - afda16
-    - SamLR
-    - issyl0
+    - PeteLeaman
+    - SomniGiggles
+    - steven-radford
+    - chrispapto
 
   channel:
-    "#govuk-infrastructure"
+    "#govuk-licensing"
 
   exclude_titles:
     - "[DO NOT MERGE]"
-    - WIP
-
-  quotes:
-    - ":eggplant:"
-    - "indeed"
-    - "naming is hard"
-    - "If it's Wednesday, go to Beck's"
-    - "We :heart: Taylor Swift"
-    - "I like to pair, do you?"
-    - "Sam has nice coffee"
-    - "Go team!"
-    - "Now that’s an interesting question"
-    - "$integer = '34'"
-    - "How hot is it? Probably 28"
-
-servicemanual:
-  members:
-    - 36degrees
-    - mcmillan
-
-  channel:
-    "#servicemanual"
-
-  exclude_titles:
-    - "[DO NOT MERGE]"
-    - DO NOT MERGE
-    - WIP
-
-  exclude_repos:
-    - govuk_elements
-    - govuk_frontend_toolkit
-
-  quotes:
-    - ":wave:"
-
-publishing-frontend:
-  members:
-    - nickcolley
-    - miaallers
-    - andysellick
-    - vanitabarrett
-    - fofr
-
-  channel:
-    "#publishing-frontend"
-
-  exclude_titles:
-    - "[DO NOT MERGE]"
+    - "[WIP]"
